@@ -50,11 +50,8 @@ display: none;
     display: flex;  
     justify-content: space-between; /*espacio iguales serca de la izquierda y derecha de la pantalla*/
     align-items: center;
-    
+    flex-direction: row-reverse;
 }
 
 
 /* Ejercicio 6. */
-#ejercicioCinco{
-    flex-direction: row-reverse;
-}
