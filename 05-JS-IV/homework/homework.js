@@ -28,16 +28,6 @@ return objeto
 
 
 
-
-
-
-
-
-
-
-
-
-
 function invocarMetodo(objeto, metodo) {
   // "metodo" es una cadena que contiene el nombre de un método (funcion) en el objeto
   // Invoca ese método
@@ -50,14 +40,6 @@ objeto[metodo]()
 
 
 
-
-
-
-
-
-  
-
-
 function multiplicarNumeroDesconocidoPorCinco(objetoMisterioso) {
   // "objetoMisterioso" tiene una propiedad llamada "numeroMisterioso"
   // Multiplica el numeroMisterioso por 5 y devuelve el producto
@@ -67,13 +49,6 @@ function multiplicarNumeroDesconocidoPorCinco(objetoMisterioso) {
 return multi
 
 }
-
-
-
-
-
-
-
 
 
 
@@ -115,8 +90,6 @@ function tieneEmail(usuario) {
   }
 }
 
- 
- 
  
  
  
@@ -170,9 +143,6 @@ return usuario
 
 
 
-
-
-
 function pasarUsuarioAPremium(usuarios) {
   // "usuarios" es un array de objetos "usuario"
   // Cada objeto "usuario" tiene la propiedad "esPremium"
@@ -189,9 +159,6 @@ usuarios.map(function(elementos){
 })
 return usuarios
 }
-
-
-
 
 
 
@@ -227,7 +194,11 @@ function agregarMetodoCalculoDescuento(producto) {
   // producto.calcularPrecioDescuento() -> 20 - (20 * 0.2)
   // Tu código:
 
- 
+ producto["calcularPrecioDescuento"] = function () {
+ var precioConDescuento = producto.precio - (producto.precio * producto.porcentajeDeDescuento)
+return precioConDescuento; 
+}
+return producto 
 }
 
 // No modificar nada debajo de esta línea
