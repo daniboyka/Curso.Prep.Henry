@@ -55,8 +55,8 @@ function map(array, cb) {
   // El nuevo array debe tener la misma longitud que el array del argumento
   //Tu código:
 
- var perro = array.map(elemento => cb(elemento)) 
-return perro
+ var nvArray = array.map(elemento => cb(elemento)) 
+return nvArray
 }
 
 function filter(array) {
