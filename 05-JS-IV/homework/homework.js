@@ -100,6 +100,7 @@ function tienePropiedad(objeto, propiedad) {
   // De lo contrario, devuelve "false"
   // Tu código:
 
+  // if(objeto.hasOwProperty(propiedad){} otra forma
 
   //if(objeto[propiedad] !=null)
   if(objeto[propiedad]){ //se usa bracket[] por q propiedad viene por parametr
