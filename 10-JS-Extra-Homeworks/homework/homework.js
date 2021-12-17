@@ -161,6 +161,21 @@ function buscoInterseccion(arreglo1, arreglo2){
   //Aclaración: los arreglos no necesariamente tienen la misma longitud
   //Escribe tu código aquí  
 
+  var nvarray = [];  
+  var arr1 = arreglo1.length;
+  var arr2 = arreglo2.length;
+  
+  for (i = 0; i < arreglo1.length; i++) {
+      for (j = 0; j < arreglo2.length; j++) {
+        if (arreglo1[i] === arreglo2[j]) {
+           nvarray.push(arreglo2[j]);
+      }
+  }
+}
+  return nvarray        
+  
+}
+
 /*
   var nuevarray = []
   var vacio = []
@@ -188,22 +203,7 @@ if(array1 === array2){
 }
 return nuevarray*/
 
-  var nvarray = [];  
-  var arr1 = arreglo1.length;
-  var arr2 = arreglo2.length;
-  
-  for (i = 0; i < arreglo1.length; i++) {
-      for (j = 0; j < arreglo2.length; j++) {
-        if (arreglo1[i] === arreglo2[j]) {
-           nvarray.push(arreglo2[j]);
-      }
-  }
-}
-  return nvarray    
-       
-  
 
-}
 
 
 

@@ -1,0 +1,1 @@
+Arrays : es un almacenador de datos en el que se pueden ingresar a esos datos a través de su índice

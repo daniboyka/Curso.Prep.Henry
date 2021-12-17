@@ -1,0 +1,6 @@
+* Objetos: a diferencia de la array aca se pueden detallar los datos que se guardar por medio de las propiedades
+	* Propiedades: aca es donde se detallan los datos y nos permiten ver mas fácil los detalles de los datos
+	* Métodos: son abreviaciones algorítmicas q te simplifican las funciones para los codigos
+	* Bucle `for…in`: nos permite recorrer a los nombres de las propiedades de un objeto
+	* Notación de puntos vs notación de corchetes: notación de puntos: nos permite entrar a las propiedad del objeto. notación de corchetes: también 
+    pero este nos permite entrar a las propiedad del objeto y también a las array que contenga ese objeto, esto también nos da mas posibilidades de agregarle funciones

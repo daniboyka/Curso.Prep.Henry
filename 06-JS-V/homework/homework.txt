@@ -1,0 +1,2 @@
+ `prototype`: todas las clases tiene prototype esto nos permite perder hacer funciones para distintas clases sin tener que gastar espacio en la memoria
+* _Constructors_ (de Clases): es una función que nos permite crear obejetos a partir de una clase

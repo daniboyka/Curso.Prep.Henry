@@ -1,0 +1,6 @@
+`for`:sirve por lo general para hacer bucles y recorrer array, string, objetos
+
+
+`&&`= Y: este operador directamente afirma o niega si ambas operaciones son correctas o falsas, si una es falsa no pasa
+||`,= O: a lo contrario del && este operado si tiene una operacion q sea falsa y otra q sea verdad la operacion se ejecutara
+`!`= NO este operador niega la operacion. 

@@ -1,0 +1,1 @@
+Funciones Callback: es una función adentro de otra función que se llama por medio el parámetro 
